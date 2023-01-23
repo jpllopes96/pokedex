@@ -1,0 +1,41 @@
+.pokeContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.pokeCard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid #222;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeCard img{
+    max-width: 110px;
+}
+
+.btnLoadMore{
+    padding: 15px;
+    font-size: 22px;
+    border: 0;
+    border-radius: 4px;
+    color: #FECA1B;
+    font-weight: bold;
+    background-color: #131313;
+    transition: all ease-in-out 0.3s;
+}
+.btnLoadMore:hover{
+    color: #131313;
+    background-color: #FECA1B;
+    cursor: pointer;
+    transform: scale(1.1);
+}
