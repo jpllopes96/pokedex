@@ -18,6 +18,14 @@
     align-items: center;
     justify-content: center;
 }
+.pokeCard:hover{
+    transform: scale(1.03);
+    background-color: #f1f9f9
+}
+
+.pokeName{
+    text-transform: capitalize;
+}
 
 .pokeCard img{
     max-width: 110px;

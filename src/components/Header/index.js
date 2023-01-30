@@ -11,10 +11,10 @@ export default function Header(){
             </div>
             <ul>
                 <li>
-                    <a href='https://www.github.com' target='blank'><FiGithub size={30} color="#FFF" /></a>
+                    <a href='https://github.com/jpllopes96' target='blank'><FiGithub size={30} color="#FFF" /></a>
                 </li>
                 <li>
-                    <a href='https://www.github.com' target='blank'><FiLinkedin size={30} color="#FFF" /></a>
+                    <a href='https://www.linkedin.com/in/joao-lopes-071026198/' target='blank'><FiLinkedin size={30} color="#FFF" /></a>
                 </li>
             </ul>
             

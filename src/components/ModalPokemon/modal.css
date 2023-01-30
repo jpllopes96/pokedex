@@ -1,0 +1,159 @@
+p{
+    color: #000;
+    font-size: 15px;
+    
+}
+
+.modalContainer{
+    background-color: #131313d0;
+    width: 100%;
+    height: 100vh;    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    
+}
+
+.modal{
+    background-color: #FFF;
+    padding: 10px;
+    width: 600px;
+    max-width: 90%;
+    height: 400px;
+    z-index: 3;
+    border-radius: 4px;
+}
+
+.modal h1 {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.modal h1 button{
+   position: relative;
+   background-color: #FFF;
+   border: none;
+   left: 150px;
+    
+}
+.modal h1 button:hover{
+    cursor: pointer;
+    scale: 1.03;
+}
+.modalBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.pokeImage img{
+    width: 250px;
+}
+.containerPoke{
+    width: 90%;
+}
+.pokeImage button{
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: rgba(255, 0, 0, 0.788);
+}
+.pokeImage button:hover{
+    cursor: pointer;
+    scale: 1.03;
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.measurements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.measurementsValues{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+}
+.measurementsValues p{
+    margin-bottom: 5px;
+}
+
+.title{
+    font-weight: bold;
+}
+.abilities{
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+
+}
+.abilities p {
+    margin-bottom: 5px;
+}
+
+.myProgress{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border: 1px solid #131313;
+    border-radius: 4px;
+}
+
+.myBar{
+    position: absolute;
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+.containerStats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px
+    
+}
+.statsName{
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+@media (max-width: 690px){
+    .modal h1 button{
+        position: relative;
+        left: 100px;
+         
+     }
+}
+
+@media (max-width: 520px){
+    .pokeImage button{
+        position: relative;
+        margin-top: 10px;
+        left: 30px;
+    }
+}
+@media (max-width: 520px){
+    .modal h1 button{
+        position: relative;
+        left: 70px;
+         
+     }
+}
+
